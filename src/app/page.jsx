@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useEffect } from "react";
 import { GoogleMap, LoadScript, Marker, DirectionsRenderer } from "@react-google-maps/api";
 import { Input } from "@/components/ui/input";
