@@ -21,7 +21,7 @@ const gymNames = ["FitHub", "IronWorks Gym", "Pulse Fitness", "Peak Performance"
 const gymAddress = ["8 Regency Rd.", "76 Kookaburra Ave.", "3 Victoria Rd.", "81 Flinders St.", "2 Burnside St."];
 const gymTrainer = ["Mark Damien", "Ali Hyder", "Sarah Webber", "Rakesh Singh", "Maria Tripodi"];
 
-export default function page() {
+export default function Home() {
   const [locations, setLocations] = useState({});
   const [residence, setResidence] = useState("");
   const [gymTimes, setGymTimes] = useState({});
